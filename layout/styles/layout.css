@@ -50,9 +50,9 @@ File: Layout CSS
 .sectiontitle *{margin:0;}
 
 .elements{}
-.elements-three li, .elements-four li{margin-bottom:50px;}
-.elements-three li:nth-last-child(-n+3), .elements-four li:nth-last-child(-n+4){margin-bottom:0;}/* Removes bottom margin from the last line of items - margin is restored in the media queries when items stack */
-.elements-three li:nth-child(3n+1), .elements-four li:nth-child(4n+1){margin-left:0; clear:left;}/* Removes the need to add class="first" */
+.elements-two li, .elements-three li, .elements-four li{margin-bottom:50px;}
+.elements-two li:nth-last-child(-n+2), .elements-three li:nth-last-child(-n+3), .elements-four li:nth-last-child(-n+4){margin-bottom:0;}/* Removes bottom margin from the last line of items - margin is restored in the media queries when items stack */
+.elements-two li:nth-child(2n+1), .elements-three li:nth-child(3n+1), .elements-four li:nth-child(4n+1){margin-left:0; clear:left;}/* Removes the need to add class="first" */
 .elements article{display:block; padding:30px 15px; border-radius:50px 0;}
 .elements article *{margin:0 0 15px 0; padding:0; line-height:1;}
 .elements article i{width:60px; height:60px; line-height:60px; margin-bottom:30px; font-size:1.6rem; text-align:center; border-radius:50%;}
@@ -81,9 +81,9 @@ File: Layout CSS
 .team figure *{margin:0; padding:0;}
 .team figure a{}
 .team figure img{}
-.team figure figcaption{padding:20px 10px; line-height:1; border:solid; border-width:0 1px 1px 1px;}
-.team figure strong{display:block; margin-bottom:8px; font-size:1.4rem; font-weight:400;}
-.team figure em{display:block; font-style:normal; font-size:.8rem;}
+.team figure figcaption{padding:20px 10px; line-height:normal; border:solid; border-width:0 1px 1px 1px; height:400px;}
+.team figure strong{display:block; margin-bottom:8px; font-size:2.0rem; font-weight:bold;}
+.team figure em{display:block; font-style:normal; font-size:1.0rem; text-align:left;}
 
 /* Easy Pie Charts */
 .pr-charts{}
@@ -358,7 +358,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#97A9BD !important;}
 
 
 /* Content Area */
-.elements article{color:#474747; background-color:#FFFFFF; box-shadow:0px 0px 15px rgba(0,0,0,.3);}
+.elements article{color:#474747; background-color:#FFFFFF; height:650px; box-shadow:0px 0px 15px rgba(0,0,0,.3);}
 .elements article:hover{color:#FFFFFF; background-color:#97A9BD;}/* Default */
 .elements article a i{color:#FFFFFF; background-color:#97A9BD;}/* Default */
 .elements article:hover a i{color:#97A9BD; background-color:#FFFFFF;}/* Default */
@@ -504,9 +504,9 @@ table a, #comments a{background-color:inherit;}
 
 	.sectiontitle{max-width:none;}
 	.shout figure, .team li, #latest > li{margin:0 auto 50px;}
-	.team li, #latest li{max-width:348px;}/* Restrict the width to the one_third grid element */
-	.elements-three li:nth-last-child(-n+3), .elements-four li:nth-last-child(-n+4){margin-bottom:50px;}
-	.elements-three li:last-child, .elements-four li:last-child, .shout figure:last-child{margin-bottom:0;}
+	.team li, #latest li{max-width:450px;}/* Restrict the width to the one_third grid element */
+	.elements-two li:nth-last-child(-n+2), .elements-three li:nth-last-child(-n+3), .elements-four li:nth-last-child(-n+4){margin-bottom:50px;}
+	.elements-two li:last-child, .elements-three li:last-child, .elements-four li:last-child, .shout figure:last-child{margin-bottom:0;}
 
 	#ctdetails figure{margin-bottom:80px;}/* Gives good separation between the two elements */
 
