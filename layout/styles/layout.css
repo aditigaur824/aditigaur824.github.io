@@ -81,7 +81,7 @@ File: Layout CSS
 .team figure *{margin:0; padding:0;}
 .team figure a{}
 .team figure img{}
-.team figure figcaption{padding:20px 10px; line-height:normal; border:solid; border-width:0 1px 1px 1px; height:400px;}
+.team figure figcaption{padding:20px 10px; line-height:normal; border:solid; border-width:0 1px 1px 1px; height:450px;}
 .team figure strong{display:block; margin-bottom:8px; font-size:2.0rem; font-weight:bold;}
 .team figure em{display:block; font-style:normal; font-size:1.0rem; text-align:left;}
 
@@ -358,7 +358,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#97A9BD !important;}
 
 
 /* Content Area */
-.elements article{color:#474747; background-color:#FFFFFF; height:650px; box-shadow:0px 0px 15px rgba(0,0,0,.3);}
+.elements article{color:#474747; background-color:#FFFFFF; height:700px; box-shadow:0px 0px 15px rgba(0,0,0,.3);}
 .elements article:hover{color:#FFFFFF; background-color:#97A9BD;}/* Default */
 .elements article a i{color:#FFFFFF; background-color:#97A9BD;}/* Default */
 .elements article:hover a i{color:#97A9BD; background-color:#FFFFFF;}/* Default */
@@ -495,8 +495,6 @@ table a, #comments a{background-color:inherit;}
 	.fl_left, .fl_right{display:block; float:none;}
 	.group .group > *:last-child, .clear .clear > *:last-child, .clear .group > *:last-child, .group .clear > *:last-child{margin-bottom:0;}/* Experimental - Needs more testing in different situations, stops double margin when stacking */
 	.one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter{display:block; float:none; width:auto; margin:0 0 30px 0;}
-	ul.special { display: block; text-align:center; }
-	ul.special li { display: inline-block; }
 
 	#header{text-align:center;}
 	#header #logo{margin:0 0 15px 0;}
