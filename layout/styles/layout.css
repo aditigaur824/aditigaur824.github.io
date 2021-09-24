@@ -82,7 +82,7 @@ File: Layout CSS
 .team figure *{margin:0; padding:0;}
 .team figure a{}
 .team figure img{}
-.team figure figcaption{padding:20px 10px; line-height:normal; border:solid; border-width:0 1px 1px 1px; height:550px;}
+.team figure figcaption{padding:20px 10px; line-height:normal; border:solid; border-width:0 1px 1px 1px; height:600px;}
 .team figure strong{display:block; margin-bottom:8px; font-size:2.0rem; font-weight:bold;}
 .team figure em{display:block; font-style:normal; font-size:1.2rem; text-align:left;}
 
