@@ -110,6 +110,9 @@ address, article, aside, figcaption, figure, footer, header, main, nav, section{
 .first{margin-left:0; clear:left;}
 .special{margin-left:15%; clear:left;}
 
+.left_column{margin-left:0; clear:left;}
+.right_column{margin-left:34%; clear:right;}
+
 .one_quarter{width:21.8421%;}
 .one_third{width:30.52631%;}
 .one_half, .two_quarter{width:47.89473%;}
